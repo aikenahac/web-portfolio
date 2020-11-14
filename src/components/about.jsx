@@ -1,11 +1,11 @@
 import React from "react";
-import me from "../img/aikenpic.png";
+import mePic from "../img/aikenpic.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
-      mePic: me,
+      mePic: mePic,
       about_me: [
         {
           id: "first-p-about",
@@ -34,42 +34,17 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-6">
-                    <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skill-mf">
-                      <img
-                        src={this.state.mePic}
-                        alt="Aiken Tine Ahac"
-                        style={{ maxWidth: "500px", padding: "25px" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
+                  <div className="col-md-10">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
                       {this.state.about_me.map(content => {
-                        return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
-                        );
+                      return (
+                      <p className="lead" key={content.id}>
+                        {content.content}
+                      </p>
+                      );
                       })}
                     </div>
                   </div>

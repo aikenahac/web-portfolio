@@ -12,6 +12,7 @@
     "normalize.css": "^8.0.1",
     "popper.js": "^1.16.1",
     "react": "^16.14.0",
+    "react-adaptive-image": "^1.8.0",
     "react-dom": "^16.14.0",
     "react-scripts": "^3.4.4",
     "react-typed": "^1.2.0",
