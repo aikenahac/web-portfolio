@@ -34,7 +34,13 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-10">
+                <div className="col-md-6">
+                    <img
+                      src={this.state.mePic}
+                      className="aiken-img"
+                    />
+                  </div>
+                  <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>

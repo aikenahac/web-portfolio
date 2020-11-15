@@ -906,6 +906,66 @@ BUTTON
   border-radius: .3rem;
 }
 
+::-webkit-scrollbar {
+  width: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: #111720;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6d6e72;
+  border-radius: 15px;
+}
+
+.aiken-img {
+  max-width: 500px;
+  padding: 25px;
+}
+
+@media (max-width: 1199px) {
+  .aiken-img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .aiken-img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 280px) {
+  .aiken-img {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .aiken-img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .aiken-img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aiken-img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .aiken-img {
+    max-width: 250px;
+  }
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
