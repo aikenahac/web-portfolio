@@ -35,6 +35,7 @@ class Intro extends React.Component {
                   className="btn btn-primary btn js-scroll px-4"
                   href="/files/CV.pdf"
                   role="button"
+                  target="_blank"
                 >
                   View my CV
                 </a>
