@@ -20,7 +20,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "Živjo, moje ime je Aiken Tine Ahac. Delujem kot Software Developer v Sloveniji. Večinoma delam v mobilnem ter spletnem razvoju v okolji kot so Flutter in React. Precej dobro mi gre tudi \"backend\" razvoj z node.js. Hitro tudi poberem nova znanja, saj sem še vedno precej mlad in se učim iz dneva v dan. Strasten sem glede svojega dela in ko enkrat začnem nov projekt, ga vedno dokončam, ne glede na ovire."
+            "Živjo, moje ime je Aiken Tine Ahac. Delujem kot Software Developer v Sloveniji. Večinoma delam v mobilnem ter spletnem razvoju v okoljih kot so Flutter in React. Precej dobro mi gre tudi \"backend\" razvoj z node.js. Hitro tudi poberem nova znanja, saj sem še vedno precej mlad in se učim iz dneva v dan. Strasten sem glede svojega dela in ko enkrat začnem nov projekt, ga vedno dokončam, ne glede na ovire."
         }
       ]
     };
