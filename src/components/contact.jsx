@@ -44,7 +44,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="https://github.com/Axodus"
+                              href="https://github.com/aikenahac/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
